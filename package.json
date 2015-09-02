@@ -1,0 +1,32 @@
+{
+  "name": "obstruction-player",
+  "version": "1.0.0",
+  "description": "An obstruction game AI template.",
+  "main": "player.coffee",
+  "directories": {
+    "test": "/test"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "grunt": "^0.4.5",
+    "grunt-legacy-util": "^0.2.0",
+    "prompt": "^0.2.14",
+    "restify": "^4.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "grunt watch",
+    "start": "coffee player.coffee"
+  },
+  "author": "Moharu",
+  "license": "ISC"
+}
